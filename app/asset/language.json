@@ -1,0 +1,10 @@
+{
+    "brand" : {
+        "en" : "Brand",
+        "hi" : "Hindi Brand"
+    },
+    "category" : {
+        "en" : "Category",
+        "hi" : "Hindi Category"
+    }
+}

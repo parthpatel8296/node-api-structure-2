@@ -1,0 +1,15 @@
+{
+	"server": {
+		"session": {
+			"cookieSecret": "fakdoo-api"
+		},
+		"CORS": {
+			"allowedHosts": [
+				"http://localhost:3000"
+			]
+		},
+		"bodyParser": {
+			"limit": "100mb"
+		}
+	}
+}

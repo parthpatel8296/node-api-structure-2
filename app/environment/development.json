@@ -1,0 +1,39 @@
+{
+	"server": {
+		"http": {
+			"port": 4000,
+			"ip": "192.168.43.185"
+		},
+		"session": {
+			"cookieSecret": "fakdoo"
+		},
+		"CORS": {
+			"allowedHosts": [
+				"http://localhost:3000",
+				"http://localhost:4200",
+				"http://192.168.0.171:3000",
+				"http://192.168.0.155:3000",
+				"http://127.0.0.1:5000",
+				"http://192.168.1.75:4200",
+				"http://192.168.1.75:4201"
+			],
+			"allowedHeaders": "*",
+			"allowedMethods": "*" 
+		},
+		"bodyParser": {
+			"limit": "100mb"
+		}
+	},
+	"mailer": {
+		"host": "techeniac.com",
+		"port": 465,
+		"secure": true,
+		"email": "",
+		
+		
+			"user": "bhargav@techeniac.com",
+			"pass": "chudasma@tech123",
+		
+		"fromSupport": "support@fakdoo.com"
+	}
+}
